@@ -1,0 +1,12 @@
+# actix_ping_pong/Cargo.toml
+
+[package]
+name = "actix_ping_pong"
+version = "0.1.1"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.9.0"
+actix-cors = "0.7.0"
+log = "0.4.26"
+env_logger = "0.11.6"
