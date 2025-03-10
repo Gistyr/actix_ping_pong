@@ -208,6 +208,7 @@ dependencies = [
  "actix-web",
  "env_logger",
  "log",
+ "serde_json",
 ]
 
 [[package]]

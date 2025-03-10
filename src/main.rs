@@ -52,5 +52,6 @@ async fn main() -> std::io::Result<()> {
 
 async fn ping() -> impl actix_web::Responder {
     log::debug!("Sent pong");
-    actix_web::HttpResponse::Ok().body("pong")
+    use serde_json::json;
+    return actix_web::HttpResponse::Ok().json(json!({"value": "pong"}));
 }
